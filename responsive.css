@@ -1,0 +1,39 @@
+@media all and (max-width: 1300px) {
+    .proyek-img {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 670px) {
+    header {
+        height: 100px;
+    }
+    
+    header ul{
+        flex-direction: column;
+    }
+    
+    header li {
+        margin: 0;
+    }
+
+    header li:first-child {
+        margin: 12px 0 0 0;
+    }
+
+    main {
+        height: 850px;
+    }
+
+    input,textarea {
+        width: 80%;
+    }
+
+    .hubungi {
+        padding: 24px;
+    }
+
+    #fsubmit {
+        width: 50%;
+    }
+}

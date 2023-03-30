@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 70px;
+    background-color: #404146;
+    color: white
+}
+
+header span {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 16px 28px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    flex: auto;
+    font-weight: 100;
+    margin: 22px 28px;
+}
+
+main {
+    text-align: center;
+    height: 750px;
+    padding: 80px 0;
+}
+
+main h1 {
+    font-size: 120px;
+    color: #404146;
+    margin: 0px;
+}
+
+h1 span {
+    color: yellow;
+}
+
+main h2 {
+    font-size: 60px;
+    font-weight: 100;
+    color: #404146;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main img {
+    height: 300px;
+    width: 300px;
+}
+
+.tentang-saya {
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.text-wrapper {
+    margin: 0;
+    padding: 100px;
+}
+
+.text-wrapper p {
+    margin-top: 30px;
+}
+
+.proyek-cth {
+    margin: 0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.proyek-img {
+    max-width: 100wh;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wrap {
+    flex:auto;
+    float:left;
+    margin: 30px 60px;
+}
+
+
+.proyek-img img {
+    width: 300px;
+    height: auto; 
+}
+
+.hubungi {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 100px;
+}
+
+.hubungi h2 {
+    margin-bottom: 50px;;
+}
+
+input,textarea {
+    width: 50%;
+    margin-bottom: 24px;
+    font-weight: 100;
+    padding: 18px 0 24px 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+::placeholder{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#fsubmit {
+    background-color: #f7e989;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    width: 25%; 
+    margin-top: 24px;
+}
+
+.footer {
+    background-color: #7c7d82;
+    height: 150px;
+    color: #fff;
+}
+
+.flogo {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px; 
+    margin: 28px 0 0 24px;
+}
+
+.flist{
+    float: right;
+    margin: 28px 24px 0 0;
+}
+
+.flist ul{
+    margin: 0px;
+    list-style: none;
+}
